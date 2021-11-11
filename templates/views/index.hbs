@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather | {{title}}</title>
+    <link rel="icon" href="/icon/weather.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <script async defer src="/js/main.js"></script>
+</head>
+
+<body>
+    {{>header}}
+    <div class="main-content">
+        <form>
+            <input id="city" type="text" placeholder="City">
+            <input id="country" type="text" placeholder="Country">
+            <button id="submit" type="submit">Let's check</button>
+        </form>
+
+        <div class="text">
+            <h2 id="message-1"></h2>
+            <h3 id="message-2"></h3>
+            <h3 id="message-3"></h3>
+            <h3 id="message-4"></h3>
+            <h3 id="message-5"></h3>
+            <h3 id="message-6"></h3>
+            <h3 id="message-7"></h3>
+            <h3 id="message-8"></h3>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
