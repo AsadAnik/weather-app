@@ -4,7 +4,8 @@ Node.js (Express) and hbs (handlebars) application developed with RapidAPI weath
 
 # Project Title
 
-A nice project with a nice description
+This project is developed not only with core node. This is developed with Express framework together with node.
+Also used REST-API from API center call RapidAPI webApp.. Weather-API is taken from this center..
 
 ---
 ## Requirements
